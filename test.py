@@ -1,4 +1,4 @@
 is_hungry = True
-is_thirsty = True
-if is_thirsty and is_thirsty :
-    print("drink and eat")
+is_thirsty = False
+if is_thirsty or is_hungry :
+    print("drink or eat")
