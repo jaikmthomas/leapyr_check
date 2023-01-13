@@ -1,12 +1,9 @@
-#write a program to determine Grades scored in an exam
-a = int(input("Write your score:"))
-if a>= 90:
-    print("Great job! you got A grade")
-elif a<90 and a>=80:
-    print("Impressive! you got B grade")
-elif a<80 and a>=70:
-    print("Good! you got C grade")
-elif a<70 and a>=60:
-    print("you got D grade, Need to improve")
+#write a program to determine whether you have attendance to qualify the course
+a = int(input("Write the total number of classes held:"))
+b = int(input("number of classes you attended:"))
+c = (b/a)*100
+print(str(c)+"%")
+if c<75.0:
+    print("You failed the course")
 else:
-    print("You are failed! you got E grade")
+    print("You are qualified the course")
