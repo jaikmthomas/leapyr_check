@@ -10,19 +10,5 @@ else:
     print(sum)
 
 
-#grade calculate
-grade = int(input("Write your score"))
-if grade>= 90:
-    print("A")
-elif 70 <= grade and grade< 80:
-    print("B")
-elif 60 <= grade and grade < 70:
-    print("C")
-elif 60 <= grade and grade < 70:
-    print("D")
-elif grade < 60:
-    print("F")
-
-
 
 
